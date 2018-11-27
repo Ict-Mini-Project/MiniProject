@@ -1,0 +1,24 @@
+{
+  "name": "food_app",
+  "version": "1.0.0",
+  "description": "ict_mini_project_food_ordering_webapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ict-Mini-Project/MiniProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ict-Mini-Project/MiniProject/issues"
+  },
+  "homepage": "https://github.com/Ict-Mini-Project/MiniProject#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}
