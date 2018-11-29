@@ -14,6 +14,16 @@ var nav=[{link:'/',title:'Home'},
 app.use(express.static(path.join(__dirname,'/public')));
 
 
+const menuRoute = require('./src/routes/menuRoute')(nav);
+app.use('/menu',menuRoute);
+
+const aboutRoute = require('./src/routes/aboutRoute')(nav);
+app.use('/aboutus',aboutRoute);
+
+const contactRoute = require('./src/routes/contactRoute')(nav);
+app.use('/contacts',contactRoute);
+
+
 app.set('views','./src/views');
 app.set('view engine','ejs');
 
