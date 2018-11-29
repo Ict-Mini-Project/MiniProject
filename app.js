@@ -5,7 +5,6 @@ var app = new express();
 
 
 var nav=[{link:'/',title:'Home'},
-        {link:'/features',title:'Features'},
         {link:'/menu',title:'Menu'},
         {link:'/login',title:'Login'},
         {link:'/aboutus',title:'About Us'},
@@ -30,6 +29,10 @@ app.set('view engine','ejs');
 
 app.get('/',function(req,res){
     res.render('index',{nav});
+});
+
+app.get('/discover',function(req,res){
+    res.render('features',{nav});
 });
         
 
