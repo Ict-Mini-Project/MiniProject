@@ -40,6 +40,6 @@ app.get('/discover',function(req,res){
         
 
 
-app.listen(3005,function(){                              
-    console.log(chalk.red('Listening on port: ')+chalk.green('3005'));
+app.listen(3000,function(){                              
+    console.log(chalk.red('Listening on port: ')+chalk.green('3000'));
 });

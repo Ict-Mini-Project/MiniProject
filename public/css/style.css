@@ -1,10 +1,3 @@
-/*
-
-Template 2083 Steak House
-
-http://www.tooplate.com/view/2083-steak-house
-
-*/
 
 body {
 		background: #ffffff;
@@ -42,6 +35,10 @@ h2 {
   margin-top: 8px;
 }
 #contact h2 {
+  color: #ffffff;
+}
+
+#order h2 {
   color: #ffffff;
 }
 
@@ -94,7 +91,7 @@ a:focus {
 /* All Section styles */
 #about,
 #feature,
-#video,
+#order,
 #menu,
 #team,
 #gallery,
@@ -106,7 +103,7 @@ a:focus {
 
 #feature,
 #video,
-#team,
+#order,
 #gallery,
 #contact {
   text-align: center;
@@ -131,6 +128,9 @@ a:focus {
   color: #f0f0f0;
 }
 
+#order .section-title {
+  color: #f0f0f0;
+}
 
 
 /* Preloader section  */
@@ -590,6 +590,64 @@ a:focus {
     width: 100%;
     display: block;
 }
+
+/* order section*/
+
+#order { background: 
+	url('../images/home-bg-slideshow2.jpg') 50% 0 repeat-y fixed; 
+	-webkit-background-size: cover;
+  	background-size: cover;
+  	background-position: center center;
+  	position: relative;
+}
+
+#order .overlay {
+	background: rgba(0,0,0,0.7);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+}
+
+#order .form-control {
+	  background: transparent;
+	  border: none;
+	  border-bottom: 1px solid #666;
+	  border-radius: 0px;
+	  box-shadow: none;
+	  color: #ffffff;
+	  font-size: 18px;
+	  margin-bottom: 16px;
+	  transition: all 0.4s ease-in-out;
+}
+
+
+#order .form-control:hover {
+  	  border-color: #ddd;
+}
+
+#order input {height: 45px;}
+
+
+#order input[type='submit'] {
+	  background: #ffffff;
+	  border-radius: 4px;
+	  color: #c21500;
+	  font-size: 20px;
+	  font-weight: 600;
+	  letter-spacing: 2px;
+	  height: 50px;
+	  margin-top: 20px;
+	  transition: all 0.4s ease-in-out;
+}
+
+
+#order input[type='submit']:hover {
+	  background-color: #c21500;
+	  border-color: transparent;
+	  color: #ffffff;
+}
+
 
 
 /* Contact section  */
