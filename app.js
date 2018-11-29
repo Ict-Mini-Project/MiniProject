@@ -22,6 +22,9 @@ app.use('/aboutus',aboutRoute);
 const contactRoute = require('./src/routes/contactRoute')(nav);
 app.use('/contacts',contactRoute);
 
+const loginRoute = require('./src/routes/loginRoute')(nav);
+app.use('/login',loginRoute);
+
 
 app.set('views','./src/views');
 app.set('view engine','ejs');

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Food App</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- stylesheets css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+  	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+  	<link rel="stylesheet" href="css/nivo-lightbox.css">
+  	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
+
+  	<link rel="stylesheet" href="css/hover-min.css">
+  	<link rel="stylesheet" href="css/flexslider.css">
+
+	<link rel="stylesheet" href="css/style.css">
+
+  	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+<!-- Preloader section -->
+<div class="preloader">
+	<div class="sk-spinner sk-spinner-pulse"></div>
+</div>
+
+<!-- Navigation section -->
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+  <div class="container">
+
+    <div class="navbar-header">
+      <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon icon-bar"></span>
+        <span class="icon icon-bar"></span>
+        <span class="icon icon-bar"></span>
+      </button>
+      <a href="#" class="navbar-brand">Steak House</a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <% for(var i=0;i<nav.length;i++){ %>
+            <li> <a href='<%=nav[i].link%>' class="smoothScroll"> <%=nav[i].title%> </a> </li>
+         <% } %>
+      </ul>
+    </div>
+
+  </div>
+</div>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100 p-t-85 p-b-20">
+				<form class="login100-form validate-form">
+					<span class="login100-form-title p-b-70">
+						Welcome
+					</span>
+					<span class="login100-form-avatar">
+						<img src="images/avatar-01.jpg" alt="AVATAR">
+					</span>
+
+					<div class="wrap-input100 validate-input m-t-85 m-b-35" data-validate = "Enter username">
+						<input class="input100" type="text" name="username">
+						<span class="focus-input100" data-placeholder="Username"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-50" data-validate="Enter password">
+						<input class="input100" type="password" name="pass">
+						<span class="focus-input100" data-placeholder="Password"></span>
+					</div>
+
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn">
+							Login
+						</button>
+					</div>
+
+					<ul class="login-more p-t-80">
+						<li>
+							<span class="txt1">
+								Don’t have an account?
+							</span>
+
+							<a href="#" class="txt2">
+								Sign up
+							</a>
+						</li>
+					</ul>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+
+    <div id="dropDownSelect1"></div>
+    
+<!-- Copyright section -->
+<section id="copyright">
+    <div class="container">
+      <div class="row">
+  
+        <div class="col-md-8 col-sm-8 col-xs-8">
+          <p>Food App</p>
+        </div>  
+  
+        <div class="col-md-4 col-sm-4 text-right">
+          <a href="#login" class="fa fa-angle-up smoothScroll gototop"></a>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script src="js/jquery.magnific-popup.min.js"></script>
+
+<script src="js/jquery.sticky.js"></script>
+<script src="js/jquery.backstretch.min.js"></script>
+
+<script src="js/isotope.js"></script>
+<script src="js/imagesloaded.min.js"></script>
+<script src="js/nivo-lightbox.min.js"></script>
+
+<script src="js/jquery.flexslider-min.js"></script>
+
+<script src="js/jquery.parallax.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/wow.min.js"></script>
+
+<script src="js/custom.js"></script>
+
+<script src="js/jquery-3.2.1.min.js"></script>		
+<script src="js/main.js"></script>
+
+</body>
+</html>
