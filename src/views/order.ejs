@@ -6,20 +6,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     
     <!-- stylesheets css -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
 
-  	<link rel="stylesheet" href="css/magnific-popup.css">
+  	<link rel="stylesheet" href="/css/magnific-popup.css">
 
-	<link rel="stylesheet" href="css/animate.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="/css/animate.min.css">
+	<link rel="stylesheet" href="/css/font-awesome.min.css">
 
-  	<link rel="stylesheet" href="css/nivo-lightbox.css">
-  	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
+  	<link rel="stylesheet" href="/css/nivo-lightbox.css">
+  	<link rel="stylesheet" href="/css/nivo_themes/default/default.css">
 
-  	<link rel="stylesheet" href="css/hover-min.css">
-  	<link rel="stylesheet" href="css/flexslider.css">
+  	<link rel="stylesheet" href="/css/hover-min.css">
+  	<link rel="stylesheet" href="/css/flexslider.css">
 
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="/css/style.css">
 
   	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
@@ -56,52 +56,36 @@
 
   </div>
 </div>
-	
-	<div class="limiter">
-		<div class="container-login100">
-			<div class="wrap-login100 p-t-85 p-b-20">
-				<form class="login100-form validate-form">
-					<span class="login100-form-title p-b-70">
-						Welcome
-					</span>
-					<span class="login100-form-avatar">
-						<img src="images/avatar-01.jpg" alt="AVATAR">
-					</span>
 
-					<div class="wrap-input100 validate-input m-t-85 m-b-35" data-validate = "Enter username">
-						<input class="input100" type="text" name="username">
-						<span class="focus-input100" data-placeholder="Username"></span>
-					</div>
+<!-- Contact section -->
+<section id="order" class="parallax-section">
+  <div class="overlay"></div>
+	<div class="container">
+		<div class="row">
 
-					<div class="wrap-input100 validate-input m-b-50" data-validate="Enter password">
-						<input class="input100" type="password" name="pass">
-						<span class="focus-input100" data-placeholder="Password"></span>
-					</div>
-
-					<div class="container-login100-form-btn">
-						<button class="login100-form-btn">
-							Login
-						</button>
-					</div>
-
-					<ul class="login-more p-t-80">
-						<li>
-							<span class="txt1">
-								Don’t have an account?
-							</span>
-
-							<a href="#" class="txt2">
-								Sign up
-							</a>
-						</li>
-					</ul>
-				</form>
+			<div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
+            <div class="wow fadeInUp section-title" data-wow-delay="0.3s">
+                <h2>Place Your Orders Here</h2>
+                
+            </div>
+				<div class="contact-form wow fadeInUp" data-wow-delay="0.7s">
+					<form id="contact-form" method="GET" action='/order/add'>
+						<input name="orderdate" type="date" class="form-control" placeholder="OrderDate" required>
+						<input name="name" type="text" class="form-control" placeholder="Your Name" required>
+						<input name="phoneno" type="number" class="form-control" placeholder="Your Phone Number" required>
+						<input name="foodcode" type="number" class="form-control" placeholder="Food Code" required>
+						<textarea name="address" class="form-control" placeholder="Address" rows="5" required></textarea>
+						<button class="btn btn-success" type="submit">Place Order</button>
+						
+					</form>
+				</div>
 			</div>
+			
 		</div>
 	</div>
-	
+</section>
 
-    <div id="dropDownSelect1"></div>
+
     
 <!-- Copyright section -->
 <section id="copyright">

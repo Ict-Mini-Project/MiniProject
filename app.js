@@ -6,7 +6,7 @@ var app = new express();
 
 var nav=[{link:'/',title:'Home'},
         {link:'/menu',title:'Menu'},
-        {link:'/login',title:'Login'},
+        {link:'/order',title:'Orders'},
         {link:'/aboutus',title:'About Us'},
         {link:'/contacts',title:'Contacts'}];
 
@@ -22,8 +22,8 @@ app.use('/aboutus',aboutRoute);
 const contactRoute = require('./src/routes/contactRoute')(nav);
 app.use('/contacts',contactRoute);
 
-const loginRoute = require('./src/routes/loginRoute')(nav);
-app.use('/login',loginRoute);
+const orderRoute = require('./src/routes/orderRoute')(nav);
+app.use('/order',orderRoute);
 
 
 app.set('views','./src/views');
@@ -40,6 +40,6 @@ app.get('/discover',function(req,res){
         
 
 
-app.listen(3000,function(){                              
-    console.log(chalk.red('Listening on port: ')+chalk.green('3000'));
+app.listen(3005,function(){                              
+    console.log(chalk.red('Listening on port: ')+chalk.green('3005'));
 });
