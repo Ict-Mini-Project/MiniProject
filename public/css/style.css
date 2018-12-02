@@ -93,8 +93,6 @@ a:focus {
 #feature,
 #order,
 #menu,
-#team,
-#gallery,
 #contact {
   color: #656565;
   padding-top: 100px;
@@ -102,9 +100,7 @@ a:focus {
 }
 
 #feature,
-#video,
 #order,
-#gallery,
 #contact {
   text-align: center;
 }
@@ -339,46 +335,6 @@ a:focus {
 
 
 
-/* Video section  */
-#video {
-  background: url('../images/video-bg.jpg') 50% 0 repeat-y fixed;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: center center;
-  position: relative;
-  color: #999;
-}
-
-#video .overlay {
-  background: rgba(03,03,03,0.6);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-
-#video h2 {
-  color: #ffffff;
-  padding-top: 20px;
-  padding-bottom: 16px;
-}
-
-#video .fa {
-  position: relative;
-  border: 2px solid #ffffff;
-  border-radius: 100px;
-  color: #ffffff;
-  font-size: 28px;
-  width: 80px;
-  height: 80px;
-  line-height: 80px;
-  text-align: center;
-  vertical-align: middle;
-  margin-top: 22px;
-}
-
-
-
 /* Menu section */
 #menu .media {
   padding-bottom: 20px;
@@ -403,130 +359,6 @@ a:focus {
 
 
 
-/* Team section */
-#team h3 {
-  padding-bottom: 0px;
-}
-
-#team .team-des h4 {
-  color: #666;
-  padding-top: 0px;
-  padding-bottom: 10px;
-}
-
-#team img {
-  width: 100%;
-}
-
-#team .team-thumb {
-  width: 100%;
-  position: relative;
-}
-
-#team .team-des {
-  background: #ffffff;
-  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.04);
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  height: 90px;
-  overflow: hidden;
-  transition: height 450ms;
-}
-#team .team-thumb:hover .team-des {
-  color: #ffffff;
-  height: 100%;
-  background-color: #c21500;
-  padding-top: 30%;
-  opacity: 0.9;
-}
-#team .team-thumb:hover h3,
-#team .team-thumb:hover h4,
-#team .team-thumb:hover .social-icon li a {
-  color: #eee;
-}
-
-#team .join-team {
-  background-color: #c21500;
-  color: #f0f0f0;
-  padding: 30px 20px;
-  text-align: center;
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
-  display: block;
-}
-#team .join-team .fa {
-  font-size: 32px;
-  padding-bottom: 14px;
-}
-#team .join-team .btn {
-  background-color: transparent;
-  border: 3px solid #ffffff;
-  color: #ffffff;
-  font-size: 18px;
-  padding: 6px 26px;
-  margin-top: 18px;
-}
-#team .join-team .btn:hover {
-  color: #222;
-}
-
-#team .col-md-6 {
-  padding-top: 62px;
-}
-#team .col-md-6 h2 {
-  padding-bottom: 16px;
-}
-
-
-
-/* Gallery section */
-#gallery .gallery-thumb {
-  position: relative;
-  overflow: hidden;
-  margin: 0;
-} 
-
-#gallery .gallery-thumb .gallery-overlay {
-  background: #c21500;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
-
-#gallery .gallery-thumb:hover .gallery-overlay {
-    opacity: 0.9;
-}
-
-#gallery .gallery-thumb .gallery-overlay .gallery-item {
-    text-align: center;
-    position: absolute;
-    top:50%;
-    left: 50%;
-    -webkit-transform:translate(-50%,-50%);
-      -ms-transform:translate(-50%,-50%);
-          transform:translate(-50%,-50%);
-}
-
-#gallery .gallery-thumb .fa {
-  background: #ffffff;
-  border-radius: 100%;
-  font-size: 24px;
-  color: #222;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  text-align: center;
-  vertical-align: middle;
-}
 
 /*filter css*/
 .filter-wrapper {
@@ -700,29 +532,6 @@ a:focus {
   background-color: #c21500;
   border-color: transparent;
   color: #ffffff;
-}
-
-
-/* Footer section  */
-footer {
-  background-color: #141414;
-  color: #757575;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-footer h3 {
-  color: #ffffff;
-  text-transform: uppercase;
-  padding-bottom: 14px;
-}
-
-footer strong {
-  color: #f0f0f0;
-  font-size: 20px;
-  display: block;
-  padding-top: 6px;
-  padding-bottom: 2px;
 }
 
 
